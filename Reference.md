@@ -1,4 +1,4 @@
-# The `cstrcal.h` Reference
+# The `dynastr.h` Reference
 ## Note
 Some functions require a `release` argument. Since one of the ways to store strings in C is assigning a dynamic character array in a character pointer (which is the way strings are mostly returned in this library), there's an option which allows users to free the strings given as arguments. For string-returning functions which take only one string as an input, you can set its `release` argument to `1` in case it needs to be freed. Unless, you can pass `0` to it.
 >[!IMPORTANT]
@@ -15,11 +15,11 @@ You might notice that the `release` argument is treated like a binary number in 
 ### Macros
 |Macro|Description|
 |-|-|
-|[`DYNASTR_CHR2STR(c)`](https://github.com/Amirreza-Ipchi-Haq/strcal/blob/main/Reference/DYNASTR_CHR2STR.md)|Converts a character to a static character array which is a string.|
+|[`DYNASTR_CHR2STR(c)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/DYNASTR_CHR2STR.md)|Converts a character to a static character array which is a string.|
 ### Functions
 |Function|Description|
 |-|-|
-|[`char* dynastr_strtmp(char* s,const char release)`](https://github.com/Amirreza-Ipchi-Haq/strcal/blob/main/Reference/dynastr_strtmp.md)||
+|[`char* dynastr_strtmp(char* s,const char release)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/dynastr_strtmp.md)||
 |||
 |||
 |||
