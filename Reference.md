@@ -21,7 +21,7 @@ You might notice that the `release` argument is treated like a binary number in 
 |-|-|
 |[`char* dynastr_strtmp(char* s,const char release)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/dynastr_strtmp.md)|Creates a copy of a string which will be allocated in the heap.|
 |[`char* dynastr_strntmp(char* s,size_t len,const char release)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/dynastr_strntmp.md)|Creates a copy of a string which will be allocated in the heap with a character limit of `len` from the left.|
-|[`char* dynastr_strnrtmp(char* s,size_t len,const char release)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/dynastr_strnrtmp.md)||Creates a copy of a string which will be allocated in the heap with a character limit of `len` from the right.|
+|[`char* dynastr_strnrtmp(char* s,size_t len,const char release)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/dynastr_strnrtmp.md)|Creates a copy of a string which will be allocated in the heap with a character limit of `len` from the right.|
 |[`char* dynastr_strappend(char* s0,char* s1,const char release)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/dynastr_strappend.md)|Appends `s1` to `s0` and returns the result allocated in the heap.|
 |[`char* dynastr_mltstr(char* s0,char* s1,size_t n,const char release)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/dynastr_mltstr.md)|Returns the result of multiplying `s1` in `n` and appending it to `s0`.|
 |[`char* dynastr_rmchr(char* n,char c,const char release)`](https://github.com/Amirreza-Ipchi-Haq/dynastr/blob/main/Reference/dynastr_rmchr.md)|Returns a copy of a string with `c` removed.|
